@@ -1,0 +1,28 @@
+<!-- Seth VanMeter -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enter JavaScript Link -->
+    <script src = "string.js"></script>
+    <title>Palindrome Checker</title>
+</head>
+
+<body>
+    <!--give the form ID-->
+    <!-- if "return false" is missing the information will stay on the screen -->
+    <form id="workChk" onsubmit = "return false">
+        <!--input type will give the input a value for JavaScript to grab-->
+        Enter Word: <input type = "text" id = "userWrd">
+        <br>
+        <!-- Create an input button -->
+        <input type = "Submit" onclick = "check();"/>
+    </form>
+    <!-- this will display the answer -->
+    <div id="answer1"></div>
+    <div id="backWrd"></div>
+    <div id="result"></div>
+</body>
+</html>
