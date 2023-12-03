@@ -21,7 +21,6 @@ function check() {
   if (joinWrd == lowerWrd) {
     document.getElementById("result").innerHTML = joinWrd + " is a Palindrome!";
   } else {
-    document.getElementById("result").innerHTML =
-      joinWrd + " is not a Palindrome!";
+    document.getElementById("result").innerHTML = userInp + " is not a Palindrome!";
   }
 }
